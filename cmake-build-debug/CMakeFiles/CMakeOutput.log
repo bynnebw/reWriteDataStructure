@@ -1,0 +1,567 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/BaiduNetdiskDownload/MinGW/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/3.6.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/BaiduNetdiskDownload/MinGW/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/3.6.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_cad95/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cad95.dir\build.make CMakeFiles/cmTC_cad95.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cad95.dir/testCCompiler.c.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe     -o CMakeFiles\cmTC_cad95.dir\testCCompiler.c.obj   -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_cad95.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cad95.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cad95.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cad95.dir/objects.a @CMakeFiles\cmTC_cad95.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_cad95.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cad95.exe -Wl,--out-implib,libcmTC_cad95.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cad95.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_8ec73/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8ec73.dir\build.make CMakeFiles/cmTC_8ec73.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ec73.dir/CMakeCCompilerABI.c.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe     -o CMakeFiles\cmTC_8ec73.dir\CMakeCCompilerABI.c.obj   -c "E:\Software\CLion 2016.3\bin\cmake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_8ec73.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8ec73.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8ec73.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8ec73.dir/objects.a @CMakeFiles\cmTC_8ec73.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_8ec73.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8ec73.exe -Wl,--out-implib,libcmTC_8ec73.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+Using built-in specs.
+COLLECT_GCC=E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/;e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ec73.exe' '-mtune=generic' '-march=pentiumpro'
+ e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTC_8ec73.exe e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1 -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_8ec73.dir/objects.a --no-whole-archive --out-implib libcmTC_8ec73.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_8ec73/fast"]
+  ignore line: [E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8ec73.dir\build.make CMakeFiles/cmTC_8ec73.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8ec73.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe     -o CMakeFiles\cmTC_8ec73.dir\CMakeCCompilerABI.c.obj   -c "E:\Software\CLion 2016.3\bin\cmake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_8ec73.exe]
+  ignore line: ["E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8ec73.dir\link.txt --verbose=1]
+  ignore line: ["E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8ec73.dir/objects.a]
+  ignore line: [E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_8ec73.dir/objects.a @CMakeFiles\cmTC_8ec73.dir\objects1.rsp]
+  ignore line: [E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_8ec73.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8ec73.exe -Wl,--out-implib,libcmTC_8ec73.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ec73.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -o cmTC_8ec73.exe e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1 -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_8ec73.dir/objects.a --no-whole-archive --out-implib libcmTC_8ec73.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8ec73.exe] ==> ignore
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o] ==> ignore
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc]
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_8ec73.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_8ec73.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/mingw32/lib]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc/mingw32/4.8.1;E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc;E:/BaiduNetdiskDownload/MinGW/MinGW/mingw32/lib;E:/BaiduNetdiskDownload/MinGW/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_81525/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_81525.dir\build.make CMakeFiles/cmTC_81525.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81525.dir/feature_tests.c.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe    -std=c11 -o CMakeFiles\cmTC_81525.dir\feature_tests.c.obj   -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_81525.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_81525.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_81525.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_81525.dir/objects.a @CMakeFiles\cmTC_81525.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_81525.dir/objects.a -Wl,--no-whole-archive  -o cmTC_81525.exe -Wl,--out-implib,libcmTC_81525.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_81525.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_af985/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_af985.dir\build.make CMakeFiles/cmTC_af985.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af985.dir/feature_tests.c.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe    -std=c99 -o CMakeFiles\cmTC_af985.dir\feature_tests.c.obj   -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_af985.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af985.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_af985.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_af985.dir/objects.a @CMakeFiles\cmTC_af985.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_af985.dir/objects.a -Wl,--no-whole-archive  -o cmTC_af985.exe -Wl,--out-implib,libcmTC_af985.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_af985.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_6d034/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_6d034.dir\build.make CMakeFiles/cmTC_6d034.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d034.dir/feature_tests.c.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe    -std=c90 -o CMakeFiles\cmTC_6d034.dir\feature_tests.c.obj   -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_6d034.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6d034.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6d034.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_6d034.dir/objects.a @CMakeFiles\cmTC_6d034.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_6d034.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6d034.exe -Wl,--out-implib,libcmTC_6d034.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6d034.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_3ec33/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_3ec33.dir\build.make CMakeFiles/cmTC_3ec33.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ec33.dir/testCXXCompiler.cxx.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe      -o CMakeFiles\cmTC_3ec33.dir\testCXXCompiler.cxx.obj -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_3ec33.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3ec33.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_3ec33.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_3ec33.dir/objects.a @CMakeFiles\cmTC_3ec33.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_3ec33.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3ec33.exe -Wl,--out-implib,libcmTC_3ec33.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3ec33.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_875af/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_875af.dir\build.make CMakeFiles/cmTC_875af.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_875af.dir/CMakeCXXCompilerABI.cpp.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe      -o CMakeFiles\cmTC_875af.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\Software\CLion 2016.3\bin\cmake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_875af.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_875af.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_875af.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_875af.dir/objects.a @CMakeFiles\cmTC_875af.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_875af.dir/objects.a -Wl,--no-whole-archive  -o cmTC_875af.exe -Wl,--out-implib,libcmTC_875af.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+Using built-in specs.
+COLLECT_GCC=E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe
+COLLECT_LTO_WRAPPER=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T
+Thread model: win32
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/;e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_875af.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro'
+ e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_875af.exe e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1 -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_875af.dir/objects.a --no-whole-archive --out-implib libcmTC_875af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_875af/fast"]
+  ignore line: [E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_875af.dir\build.make CMakeFiles/cmTC_875af.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_875af.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe      -o CMakeFiles\cmTC_875af.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\Software\CLion 2016.3\bin\cmake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_875af.exe]
+  ignore line: ["E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_875af.dir\link.txt --verbose=1]
+  ignore line: ["E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_875af.dir/objects.a]
+  ignore line: [E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_875af.dir/objects.a @CMakeFiles\cmTC_875af.dir\objects1.rsp]
+  ignore line: [E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_875af.dir/objects.a -Wl,--no-whole-archive  -o cmTC_875af.exe -Wl,--out-implib,libcmTC_875af.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --prefix=/mingw --host=mingw32 --build=mingw32 --without-pic --enable-shared --enable-static --with-gnu-ld --enable-lto --enable-libssp --disable-multilib --enable-languages=c,c++,fortran,objc,obj-c++,ada --disable-sjlj-exceptions --with-dwarf2 --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --with-gmp=/usr/src/pkg/gmp-5.1.2-1-mingw32-src/bld --with-mpc=/usr/src/pkg/mpc-1.0.1-1-mingw32-src/bld --with-mpfr= --with-system-zlib --with-gnu-as --enable-decimal-float=yes --enable-libgomp --enable-threads --with-libiconv-prefix=/mingw32 --with-libintl-prefix=/mingw --disable-bootstrap LDFLAGS=-s CFLAGS=-D_USE_32BIT_TIME_T]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_875af.exe' '-shared-libgcc' '-mtune=generic' '-march=pentiumpro']
+  link line: [ e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_875af.exe e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1 -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_875af.dir/objects.a --no-whole-archive --out-implib libcmTC_875af.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_875af.exe] ==> ignore
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o] ==> ignore
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc]
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Le:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_875af.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_875af.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/mingw32/lib]
+  collapse library dir [e:/baidunetdiskdownload/mingw/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [E:/BaiduNetdiskDownload/MinGW/MinGW/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc/mingw32/4.8.1;E:/BaiduNetdiskDownload/MinGW/MinGW/lib/gcc;E:/BaiduNetdiskDownload/MinGW/MinGW/mingw32/lib;E:/BaiduNetdiskDownload/MinGW/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_40431/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_40431.dir\build.make CMakeFiles/cmTC_40431.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40431.dir/feature_tests.cxx.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe     -std=c++1y -o CMakeFiles\cmTC_40431.dir\feature_tests.cxx.obj -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_40431.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_40431.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_40431.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_40431.dir/objects.a @CMakeFiles\cmTC_40431.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_40431.dir/objects.a -Wl,--no-whole-archive  -o cmTC_40431.exe -Wl,--out-implib,libcmTC_40431.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_40431.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_badbf/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_badbf.dir\build.make CMakeFiles/cmTC_badbf.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_badbf.dir/feature_tests.cxx.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe     -std=c++11 -o CMakeFiles\cmTC_badbf.dir\feature_tests.cxx.obj -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_badbf.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_badbf.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_badbf.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_badbf.dir/objects.a @CMakeFiles\cmTC_badbf.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_badbf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_badbf.exe -Wl,--out-implib,libcmTC_badbf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_badbf.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe" "cmTC_bfbfc/fast"
+E:/BaiduNetdiskDownload/MinGW/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bfbfc.dir\build.make CMakeFiles/cmTC_bfbfc.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfbfc.dir/feature_tests.cxx.obj
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe     -std=c++98 -o CMakeFiles\cmTC_bfbfc.dir\feature_tests.cxx.obj -c F:\reWriteDataStructure\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_bfbfc.exe
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bfbfc.dir\link.txt --verbose=1
+"E:\Software\CLion 2016.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bfbfc.dir/objects.a
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\ar.exe cr CMakeFiles\cmTC_bfbfc.dir/objects.a @CMakeFiles\cmTC_bfbfc.dir\objects1.rsp
+E:\BaiduNetdiskDownload\MinGW\MinGW\bin\g++.exe       -Wl,--whole-archive CMakeFiles\cmTC_bfbfc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bfbfc.exe -Wl,--out-implib,libcmTC_bfbfc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bfbfc.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'F:/reWriteDataStructure/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
